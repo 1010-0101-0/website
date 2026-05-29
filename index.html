@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Kürze verfügbar | Under Construction</title>
+    <!-- Tailwind CSS CDN für schnelles, modernes Styling -->
+    <script src="https://jsdelivr.net"></script>
+    <!-- Lucide Icons für minimalistische Symbole -->
+    <script src="https://unpkg.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans flex flex-col justify-between min-h-full antialiased selection:bg-emerald-500 selection:text-slate-900">
+
+    <!-- Header / Logo Bereich -->
+    <header class="w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="flex items-center gap-2 font-bold text-xl tracking-wider text-emerald-400">
+            <i data-lucide="layers" class="w-6 h-6"></i>
+            <span>MEINPROJEKT</span>
+        </div>
+        <div class="text-xs uppercase tracking-widest text-slate-400 bg-slate-850 px-3 py-1.5 rounded-full border border-slate-800">
+            Status: In Arbeit
+        </div>
+    </header>
+
+    <!-- Hauptinhalt -->
+    <main class="w-full max-w-2xl mx-auto px-6 py-12 flex flex-col items-center text-center my-auto">
+        <!-- Animiertes Icon-Paket -->
+        <div class="relative flex items-center justify-center mb-8">
+            <div class="absolute inset-0 bg-emerald-500/10 rounded-full blur-xl w-24 h-24 animate-pulse"></div>
+            <div class="bg-slate-800 p-5 rounded-2xl border border-slate-700 shadow-xl">
+                <i data-lucide="wrench" class="w-12 h-12 text-emerald-400 animate-bounce"></i>
+            </div>
+        </div>
+
+        <!-- Textinhalte -->
+        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4 bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+            Hier entsteht etwas Neues.
+        </h1>
+        <p class="text-slate-400 text-lg mb-8 max-w-md leading-relaxed">
+            Wir arbeiten im Hintergrund unter Hochdruck an unserer neuen Webseite. Schau bald wieder vorbei!
+        </p>
+
+        <!-- Kontakt / E-Mail Button -->
+        <div class="w-full max-w-sm">
+            <a href="mailto:info@deinedomain.de" class="inline-flex items-center justify-center gap-2 w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold px-6 py-3.5 rounded-xl transition-all duration-200 shadow-lg shadow-emerald-500/20 hover:shadow-emerald-400/30 transform hover:-translate-y-0.5">
+                <i data-lucide="mail" class="w-5 h-5"></i>
+                <span>Kontaktiere uns per E-Mail</span>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full max-w-7xl mx-auto px-6 py-8 border-t border-slate-800/60 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-500">
+        <div>
+            © 2026 MeinProjekt. Alle Rechte vorbehalten.
+        </div>
+        <div class="flex gap-6">
+            <a href="mailto:info@deinedomain.de" class="hover:text-slate-300 transition-colors">Impressum</a>
+            <a href="mailto:info@deinedomain.de" class="hover:text-slate-300 transition-colors">Datenschutz</a>
+        </div>
+    </footer>
+
+    <!-- Initialisierung der Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
